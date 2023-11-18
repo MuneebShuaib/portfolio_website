@@ -46,8 +46,28 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*begin css*/
 
+/*begin css*/
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(51, 48, 48);
+}
+.navbar > *{
+	padding: 1rem;
+	color: white;
+	list-style-type: none;
+	text-decoration: none;
+}
+.navbar-items{
+	display: flex;
+	justify-content: content;
+	align-items: center;
+}
+.navbar-items li{
+	padding: 1rem;
+}
 
 
 
